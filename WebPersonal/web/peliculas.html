@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Películas Favoritas</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Sitio Web Personal">
+        <meta name="keywords" content="Autobiografia, Html, Sitio web personal">
+        <meta name="author" content="Melchor Ruiz Gonzalez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/ico" href="./img/logo_personal_2.ico">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <table>
+                    <tr>
+                        <th><a href="pasatiempos.html">Pasatiempos</a></th>
+                        <th><a href="musica.html">Musica</a></th>
+                        <th><a href="index.html"><img src="./img/logo_personal.ico" alt="Logo personal" height="60"/></a></th>
+                        <th><a href="peliculas.html">Peliculas</a></th>
+                        <th><a href="familia.html">Familia</a></th>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        <h1>Página De Películas Favoritas</h1>
+        <main>
+            <table border="2">
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>JURASSIC PARK</th>
+                    <th>REEADY PLAYER ONE</th>
+                    <th>AVATAR</th>
+                </tr>
+                <tr>
+                    <th>TRAILER</th>
+                    <td>
+                        <video width="440" height="247" controls>
+                            <source src="media/trailer_pelicula_1.mp4" type="video/mp4">
+                            Your browser does not support the <code>video</code> tag.
+                        </video>
+                    </td>
+                    <td><iframe width="440" height="247" src="https://www.youtube.com/embed/QxVvk-OuJb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                    <td><iframe width="440" height="247" src="https://www.youtube.com/embed/5PSNL1qE6VY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                </tr>
+                <tr>
+                    <th>SINOPSIS</th>
+                    <td>
+                        <p>
+                            "Jurassic Park" es una película de ciencia ficción y aventuras dirigida por Steven Spielberg en 1993. 
+                            La trama gira en torno a un excéntrico empresario, John Hammond, que crea un parque temático de dinosaurios utilizando la ingeniería genética. 
+                            Invita a un grupo de científicos y un abogado a visitar la isla donde se encuentra el parque antes de su apertura. 
+                            Sin embargo, las cosas se descontrolan cuando las medidas de seguridad fallan y los dinosaurios escapan, convirtiendo la visita en una lucha por la supervivencia. 
+                            La película combina acción, emoción y efectos visuales revolucionarios, cautivando a audiencias de todas las edades.
+                        </p>
+                    </td>
+                    <td>
+                        <P>
+                            "Ready Player One" es una película de ciencia ficción dirigida por Steven Spielberg, basada en la novela del mismo nombre de Ernest Cline. 
+                            La historia se desarrolla en un futuro distópico donde la humanidad busca escapar de la realidad a través de Oasis, un vasto mundo virtual. 
+                            Cuando el creador de Oasis fallece, deja un desafío a los jugadores: encontrar un huevo de Pascua digital que otorgará el control total del Oasis y una fortuna incalculable. 
+                            Wade Watts, un joven jugador, se embarca en una emocionante aventura llena de acción, enigmas y referencias a la cultura pop, mientras lucha contra una corporación malévola para proteger el futuro de Oasis.
+                        </P>
+                    </td>
+                    <td>
+                        <p>
+                            "Avatar" es una película de ciencia ficción dirigida por James Cameron. 
+                            La historia se desarrolla en Pandora, un exuberante y peligroso planeta habitado por una raza indígena llamada Na'vi. 
+                            Un exmarine parapléjico, Jake Sully, se une al programa Avatar, que le permite controlar un cuerpo biológico Na'vi a través de una conexión neural. 
+                            Mientras se infiltra en la cultura Na'vi, Jake se encuentra dividido entre su lealtad hacia los humanos y su creciente simpatía por los Na'vi y su forma de vida en armonía con la naturaleza. 
+                            En medio de conflictos y batallas, Jake se convierte en un líder en la lucha por la supervivencia de Pandora y la defensa de su hogar Na'vi.
+                        </p>
+                    </td>
+                </tr>
+            </table>    
+        </main>
+        <footer>
+            <p>Melchor Ruiz González, DSM303</p>
+            <h3>Contacto</h3>
+            <form action="">
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="name" name="name" value=""><br>
+                <label for="lname">Mensaje:</label><br>
+                <input type="text" id="message" name="message" value=""><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </footer>
+    </body>
+</html>
