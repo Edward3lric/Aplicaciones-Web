@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Formularios</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Sitio sobre formularios">
+        <meta name="keywords" content="Formulario, HTML">
+        <meta name="author" content="Melchor Ruiz Gonzalez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main>
+            <h1>Formulario</h1>
+            <form name="escuesta" id="escuesta" method="Post" action="" enctype="text/plain"><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" required><br>
+                <input type="password" name="password" id="password" placeholder="Contraseña"required><br>
+                <input type="color" name="color" id="color"><br>
+                <input type="date" name="date" id="date"><br>
+                <input type="email" name="email" id="email" placeholder="Correo" required multiple><br>
+                <input type="number" name="edad" id="edad" min="17" max="70" placeholder="Edad"><br>
+                <input type="month" name="mesNacimiento" id="mesNacimiento"><br>
+                <input type="search" name="busqueda" id="busqueda" placeholder="Buscar"><br>
+                <input type="tel" name="telefono" id="telefono" placeholder="Telefono"><br>
+                <label name="genero">Genero</label>
+                <input type="radio" name="genero" id="genero" value="Mujer">Mujer
+                <input type="radio" name="genero" id="genero" value="Hombre">Hombre
+                <input type="radio" name="genero" id="genero" value="Otros">Otros<br>
+                <label name="pasatiempos">Pasatiempos</label><br>
+                <input type="checkbox" name="pasatiempo" id="pasatiempo" value="Futbol">Futbol<br>
+                <input type="checkbox" name="pasatiempo" id="pasatiempo" value="Bailar">Bailar<br>
+                <input type="checkbox" name="pasatiempo" id="pasatiempo" value="Videojuegos">Videojuegos<br>
+                <input type="checkbox" name="pasatiempo" id="pasatiempo" value="Caminar">Caminar<br>
+                <label name="paisFavorito">Pais Favorito</label>
+                <select name="pais" id="pais">
+                    <option value="mexico">México</option>
+                    <option value="inglaterra">Inglaterra</option>
+                    <option value="canada">Cánada</option>
+                    <option value="china">China</option>
+                </select><br>
+                <label name="observaciones">Observaciones</label><br>
+                <textarea id="observaciones" name="observacioens" rows="5" cols="50" autofocus></textarea><br>
+                <input pattern=”[0-9]{5}" name="codigopostal" id="codigopostal” title="inserte los 5 números de su código postal">
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+    </body>
+</html>
