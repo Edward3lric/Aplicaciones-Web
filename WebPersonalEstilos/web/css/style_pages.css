@@ -1,0 +1,127 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 Jun 2023, 20:01:32
+    Author     : h4lof
+*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;  
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav > ul > li > a:hover {
+    color: #0080FE;
+    transition: .4s;
+}
+.btn {
+    color: white;
+    background-color: #0080FE;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    
+}
+.btn:hover {
+    transform: scale(1.2);
+}
+
+/* body */
+body {
+    background: linear-gradient(45deg, #ff00ff, #0000ff);
+}
+main {
+    color: white;
+    padding: 0px 8% 6% 8%;
+    min-height: calc(100vh - 100px);
+}
+h1 {
+    padding: 40px;
+    text-align: center;
+    font-size: 68px;
+}
+iframe {
+    height: auto;
+    width: auto;
+}
+img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* tabla */
+th, td {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    font-variant: common-ligatures;
+    font-style: italic;
+    font-size: 20px;
+}
+th {
+    border: 10px solid transparent;
+    border-image: url(../img/colores.jpg) 30 stretch round;
+}
+dt {
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+dd {
+    text-indent: 25px;
+}
+
+ol > li {
+    list-style-type: disc;
+    padding-top: 10px;
+}
+
+.type-adjectives {
+    list-style-type: disc;
+    text-indent: 0px;
+}
+.adjetive {
+    list-style-type: none;
+    text-indent: 25px;
+}
+.list {
+    padding-left: 50px;
+}
+

@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 Jun 2023, 08:08:14
+    Author     : h4lof
+*/
+
+p {
+    width: 500px;
+    border: 1px solid red;
+}
+
+#id1 {
+    text-align: right;
+}
+#id2 {
+    text-align: justify;
+}
+#id3 {
+    text-decoration: overline;
+}
+#id4 {
+    text-decoration: line-through;
+}
+#id5 {
+    text-decoration: underline;
+}
+#id6 {
+    text-decoration: blink;
+}
+#id7 {
+    text-transform: uppercase;
+}
+#id8 {
+    text-transform: lowercase;
+}
+#id9 {
+    text-transform: capitalize;
+}
+#id10 {
+    text-indent: 50px;
+}
+#id1:hover {
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 40px;
+    font-size: 2.5em;
+    font-variant: normal;
+    font-variant: small-caps;
+}

@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 Jun 2023, 08:12:39
+    Author     : h4lof
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0PX;
+}
+
+/* Selectores con etiquetas */
+header, footer {
+    width: 100%;
+    height: 80px;
+    background: rgba(39, 55, 77, 0.8);
+}
+main {
+    width: 80%;
+    height: 500px;
+    background: rgb(238, 226, 222);
+}
+
+/* Selectores con clases */
+
+.titulo {
+    text-align: center;
+    color: rgb(120, 153, 220);
+    font-family: Arial;   
+    margin-top: 0px;
+}
+
+/* Selectores con id´s */
+
+#t1 {
+    font-size: 2em;
+    color: rgb(82, 109, 130);
+    margin-top: auto;
+}
+
+#t2 {
+    font-size: 0.75em;
+    color: rgb(157, 178, 191);
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .card{width: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-align: center;
+      }
+      @keyframes example{
+        from{background-color:red;}
+        to{background-color:yellow;}
+      }
+      .div_animado{
+        width: 100px;
+        height: 100px;
+        background-color:red;
+        animation-name: example;
+        animation-duration: 10s;
+      }
+      .bordeImg{
+        border: 10px solid transparent;
+        padding: 15px;
+        border-image: url('./images/img1.jpeg') 30 stretch round;
+      }
+      #multipleBack {
+          border: 10px solid transparent;
+          padding: 15px;
+          background: url('./images/img1.jpeg') left top no-repeat, 
+              url('./images/img2.jpg') right bottom no-repeat,
+              url('./images/img3.jpg') left top repeat;
+      }
+      #gradiente1 {
+        height: 200px;
+        width: 200px;
+        overflow: auto;
+        float: left;
+        background-image: linear-gradient(aqua, beige);
+      }
+      #gradiente2 {
+        height: 200px;
+        width: 200px;
+        overflow: auto;
+        float: left;
+        background-image: linear-gradient(white, beige, tan);
+      }
+      #gradiente3 {
+        height: 200px;
+        width: 200px;
+        overflow: auto;
+        float: left;
+        background-image: linear-gradient(to right, rosybrown , honeydew);
+      }
+      #gradiente4 {
+        background-image: linear-gradient(to bottom right, red, yellow);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="bordeImg">Contiene un border de imagen</div>
+      <div id="multipleBack ">Contiene un border con multiple opcion para colocar una imagen de bordeado</div>
+      <div id="gradiente1"><h1>Aqui habrá un fondo degradado de tipo lineal de dos colores, coloca un ancho y alto de 200 px</h1></div>
+      <div id="gradiente2"><h1>Aqui habrá un fondo degradado de tipo lineal de tres colores, coloca un ancho y alto de 200 px</h1></div>
+      <div id="gradiente3"><h1>Aqui habrá un fondo degradado de tipo lineal de tres colores desde la derecha, coloca un ancho y alto de 200 px</h1></div>
+      <div id="gradiente4"><h1>Aqui habrá un fondo degradado de tipo lineal de tres colores desde abajo, coloca un ancho y alto de 200 px</h1></div>
+      <div id="gradiente5"><h1>Aqui habrá un fondo degradado de tipo lineal de muchos  colores, coloca un ancho y alto de 200 px</h1></div>
+      <div id="gradiente6"><h1>Aqui habrá un fondo degradado de tipo lineal de tres colores y transparencias, coloca un ancho y alto de 200 px</h1></div>
+      <div id="gradiente7"><h1>Aqui habrá un fondo degradado de tipo radial de tres colores con atenuaciones, coloca un ancho y alto de 200 px</h1></div>
+      <div id="gradiente8"><h1>Aqui habrá un fondo degradado de tipo radial de tres colores con forma circular, coloca un ancho y alto de 200 px</h1></div>
+      <div>
+        <h1>  text-shadow: 2px 2px;  </h1>
+        <h2>text-shadow: 2px 2px red</h2>
+        <h3>text-shadow: 2px 2px 5px red</h3>
+        <h4>color: white;​ <BR>
+          text-shadow: 2px 2px 4px #000000</h4>
+        <h5>color: white;​ <br>
+          text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;​</h5>
+      </div>
+      <div class="div1"><p>box-shadow: 10px 10px;</p></div>
+      <div class="div2"><p>box-shadow: 10px 10px grey;</p></div>
+      <div class="div3"><p>box-shadow: 10px 10px 5px grey;</p></div>
+      <div class="card" >
+          <p>Aqui estamos poniendo efectos de sombra a varios lados del contenedor</p>
+      </div>
+      <div class="div_animado"> se aplica animación</div>
+    </div>
+  </body>
+</html>

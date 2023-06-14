@@ -1,0 +1,67 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 Jun 2023, 07:27:39
+    Author     : h4lof
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0PX;
+}
+
+#cabecera {
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 80px;
+    background: rgb(96, 108, 93);
+    border: 5px solid black;
+}
+
+#pie {
+    margin: 30px 20px 10px 20px;
+    height: 80px;
+    background: rgb(241, 195, 118);
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#principal {
+    margin: 32px;
+    height: 550px;
+    background: rgb(247, 230, 196);
+    border: 5px;
+    border-color: black;
+    border-style: dotted dashed solid double;
+}
+
+.mip {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px dotted black;
+    margin: 5px;
+}
+
+.nop {
+    border-style: solid;
+    padding: 1em .5em .5em .5em;
+    border: 3px dashed black;
+    margin: 5px;
+}
+
+p {
+    border-style: solid;
+    padding: 0.5em 0.5em 0.5em .5em;
+    border: 3px inset black;
+    margin: 5px;
+}
+
+h1 {
+    padding: 20px;
+}

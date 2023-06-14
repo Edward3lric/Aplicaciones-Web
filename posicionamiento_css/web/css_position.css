@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 Jun 2023, 07:48:55
+    Author     : h4lof
+*/
+
+/* Posicionamiento */
+#static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+#relative {
+    width: calc(100% - 30px);
+    position: relative;
+    top: 100px;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid blue;
+}
+#absolute {
+    position: absolute;
+    bottom: 100px;
+    right: 500px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+/* Flotar elemntos */
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+nav {
+    float: left;
+    width: 200px;
+    border: 3px solid #0080FE;
+}
+#no-float {
+    clear: left;
+    padding-top: 40px;
+}
+div {
+    width: 300px;
+    height: 150px;
+    overflow:scroll;
+}

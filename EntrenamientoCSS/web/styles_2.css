@@ -1,0 +1,38 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 Jun 2023, 07:19:38
+    Author     : Melchor Ruiz Gonzàlez
+*/
+* {
+    font-size: 16px;
+}
+
+p {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+a {
+    border: 1px;
+    border-color: red;
+    border-style: dashed;
+}
+
+p > a {
+   font-size: 200px;
+   background-color: rgba(0, 0, 0, 0.1);
+   background-image: url('./img/fondo.jpg');
+   background-repeat: no-repeat;
+   /*background-repeat: repeat-y;*/
+   /*background-position: right top;*/
+   background-position: center;
+   /*opacity: 0.5;*/
+   /* Esto no siver en elementos inline
+   width: 100px;
+   height: 400px;
+   */
+}
